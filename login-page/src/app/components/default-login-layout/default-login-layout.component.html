@@ -1,0 +1,27 @@
+<main>
+<section class="form-section">
+<img alt="" src="/svg/logo.svg"/>
+
+<h2>{{ title }}</h2>
+<ng-content></ng-content>
+<div class="btn-wrapper"> 
+<button class="btn-primary" (click)="submit()">{{ primaryBtnText }}</button>
+<div class="dividir">
+    <div> </div>
+    <span> or </span>
+    <div> </div>
+    </div>
+    <div class="btn-wrapper"> 
+    <button class="btn-secondary" (click)="navigate()">{{ secondaryBtnText }}</button>
+</div>
+
+</div>
+</section>
+
+<section  class="main-section">
+<h1> You should, move it!</h1>
+<img alt="" src="/svg/main-illustration.svg"/>
+</section>
+
+
+</main>
